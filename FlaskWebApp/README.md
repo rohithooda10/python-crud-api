@@ -18,7 +18,7 @@ This project is a simple RESTful API built using Flask. It provides basic CRUD (
 
 ### 1. Get All Items
 
-- **URL**: `/api/v1/item`
+- **URL**: `/api/v1/items`
 - **Method**: `GET`
 - **Response**: List of all items.
 
