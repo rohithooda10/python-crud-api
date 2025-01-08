@@ -1,4 +1,4 @@
-# Flask Item API
+# Tornado Item API
 
 This project is a simple RESTful API built using Tornado. It provides basic CRUD (Create, Read, Update, Delete) functionality for managing items in an in-memory database. The API is thread-safe, utilizing a threading lock to handle concurrent access.
 
