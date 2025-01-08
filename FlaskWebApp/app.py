@@ -8,7 +8,7 @@ items = []
 lock = threading.Lock()
 
 # Get all items
-@app.route("/api/v1/item", methods=["GET"])
+@app.route("/api/v1/items", methods=["GET"])
 def get_all_items():
     global items
     with lock:
