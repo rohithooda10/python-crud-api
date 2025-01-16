@@ -16,7 +16,7 @@ class Response:
 
 class BaseHandler(web.RequestHandler):
     def write_json(self, response):
-        self.set_header("Content-Type","applicatio/json")
+        self.set_header("Content-Type","application/json")
         self.write(json.dumps(response.__dict__))
 
 class CreateItemHandler(BaseHandler):
